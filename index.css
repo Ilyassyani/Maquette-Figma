@@ -1,0 +1,148 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.tete
+{
+    background-color:#1BB9E9;
+    padding: 39px 0 0 140px;
+}
+.tete1
+{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1160px;
+    height: 38px;
+}
+.tete1gauche
+{
+    width: 77.14px;
+    height: 24px;
+    cursor: pointer;
+}
+.tete1droite
+{
+    display: flex;
+    gap:47px;
+    
+}
+.tete1droitenav
+{
+    display: flex;
+    flex-direction: row;
+    gap: 43px;
+    align-items: center;
+}
+.tete1droitenav span
+{
+    color: white;
+    font-size: 14px;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+}
+.tete1droitenav span i 
+{
+    font-size: 12px;
+    font-family: 'Font Awesome 5 Free';
+}
+.tete1droitenav span:hover
+{
+    color: #bbbbbb;
+    transition: 0.5s;
+}
+.Login
+{
+    background: linear-gradient(to right,#328BCB,#005490);
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    height: 38px;
+    width: 95px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.Login:hover
+{
+    background: linear-gradient(to right,#005490,#013971);
+    color: #bbbbbb;
+    transition: 0.5s;
+}
+.tete2
+{
+    display: flex;
+    
+}
+.tete2droite
+{
+    color: white;
+    margin: 18rem 0 0 0;
+}
+.tete2droite h1
+{
+    height: 241px;
+    width: 623px;
+    font-size: 64px;
+    line-height: 76px;
+    font-family: 'DM Sans', sans-serif;
+    margin: 0 0 -34px 0;
+}
+.tete2droite img
+{
+    margin: 0 0 0 5px;
+}
+.tete2droite p
+{
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'DM Sans', sans-serif;
+}
+.tete2droitebas
+{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.seehow
+{
+    width: 197px;
+    height: 57px;
+    border-radius: 4px;
+    background-color:white;
+    color: #00A8DB;
+    border: 0;
+    cursor: pointer;
+}
+.seehow:hover
+{
+    background-color: #bbbbbb;
+    color: #005490;
+    transition: 0.5s;
+}
+.tete2droitebas span
+{
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+}
+.tete2droitebas span:hover
+{
+    color: #bbbbbb;
+    transition: 0.5s;
+}
+.tete2gauche
+{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 8rem 0 0 0;
+}
+.ecrase
+{
+    margin: -40rem 0 0 0;
+}
+
+
