@@ -514,6 +514,7 @@ body
 .f1icone
 {
     display: flex;
+    gap: 5px;
 }
 .f1 p
 {
