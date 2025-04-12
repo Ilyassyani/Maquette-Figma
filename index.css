@@ -2,6 +2,9 @@ body
 {
     margin: 0;
     padding: 0;
+    font-family: 'DM Sans';
+    letter-spacing: 0.3px;
+    line-height: 32px;
 }
 .tete
 {
@@ -40,8 +43,6 @@ body
 {
     color: white;
     font-size: 14px;
-    font-family: 'DM Sans', sans-serif;
-    letter-spacing: 0.3px;
     cursor: pointer;
 }
 .tete1droitenav span i 
@@ -87,7 +88,6 @@ body
     width: 623px;
     font-size: 64px;
     line-height: 76px;
-    font-family: 'DM Sans', sans-serif;
     margin: 0 0 -34px 0;
 }
 .tete2droite img
@@ -98,7 +98,6 @@ body
 {
     font-size: 16px;
     line-height: 26px;
-    font-family: 'DM Sans', sans-serif;
 }
 .tete2droitebas
 {
@@ -144,5 +143,460 @@ body
 {
     margin: -40rem 0 0 0;
 }
+.partie1
+{
+    display: flex;
+    justify-content: center;
+    margin: -25rem 0 -15rem 0;
+    background-color: white;
+    padding: 0 0 30rem 0;
+}
+.partners
+{
+    display: flex;
+    margin: 15rem 0 0 0;
+}
+.partners img
+{
+    cursor: pointer;
+}
+.partie2
+{
+    display: flex;
+    justify-content: space-around;
+}
+.partie2gauche
+{
+    display: flex;
+    width: 494;
+    height: 550.853759765625;
+    object-fit: cover;
+}
+.ecrase2
+{
+    margin: 0rem 0 0 -40rem;
+}
+.partie2droite
+{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.partie2droite h1
+{
+    color: #034D82;
+    font-size: 36px;
+}
+.partie2droite p
+{
+    color: #90A3B4;
+    font-size: 16px;
+}
+.partie2droite span
+{
+    color: #04AADD;
+    font-size: 16px;
+    cursor: pointer;
+}
+.partie2droite span:hover
+{
+    color: #034D82;
+    transition: 0.5s;
+}
+.partie3
+{
+    display: flex;
+    justify-content: center;
+    margin: 25rem 0 0 0;
+}
+.partie3gauche
+{
+    display: flex;
+    flex-direction: column;
+}
+.partie3gauche h1
+{
+    color: #034D82;
+    font-size: 36px;
+    margin: 0 0 32px 0;
+}
+.partie3gauche p
+{
+    color: #90A3B4;
+    font-size: 16px;
+    margin: 0 0 32px 0;
+}
+.liste1
+{   
+    display: flex;
+    flex-direction: column;
+    color: #90A3B4;
+    font-size: 16px;
+    list-style: none;
+    justify-content: center;
+    margin: none;
+    gap: 16px;
+}
+.liste1 li
+{
+    cursor: pointer;
+}
+.liste1 img
+{
+    margin-right: 7px;
+    color: #04AADD;
+}
+.partie3gauche span
+{
+    color: #04AADD;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 16px 0 0 0;
+    
+}
+.partie3gauche span:hover
+{
+    color: #034D82;
+    transition: 0.5s;
+}
+.partie4
+{
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    background-color: #EFFBFF;
+    padding: 5rem 0 8rem 0;
+}
+.partietete4
+{
+    display: flex; 
+}
+.partie4tete h1
+{
+    color: #034D82;
+    font-size: 36px;
+}
+.partie4tete p
+{
+    color: #90A3B4;
+    font-size: 16px;
+    text-align: center;
+}
 
+.partie4body
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.partie4case
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+}
+.partie4case img
+{   
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.partie4case h1
+{
+    color: #034D82;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+.partie4case p
+{
+    font-size: 15px;
+    line-height: 24px;
+    color: #8EA9C1;
+}
+.partie5
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15rem 0 0 0;
+}
+.partie5gauche
+{
+    display: flex;
+    flex-direction: column;
 
+}
+.partie5gauche h1
+{
+    color: #034D82;
+    font-size: 36px;
+    line-height: 52px;  
+}
+.partie5gauche p
+{
+    color:#90A3B4; 
+    font-size: 16px;
+    line-height: 32px;
+}
+.partie5droite
+{
+    display: flex;
+}
+.partie5droite h1
+{
+    color: #034D82;
+    font-size: 130px;
+    line-height: 100%;
+    display: flex;
+    align-items: start;
+    margin: 0 -4rem 0 0;
+}
+.partie5droiteimg
+{
+    display: flex;
+    align-items: end;
+    gap: 3rem;
+    color: #034D82;
+    font-size: 24px;
+}
+.partie5droiteimg img
+{
+    width: 442px;
+    height: 204px;
+    object-fit:contain;
+}
+.RF
+{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color:#034D82 ;
+    color: white;
+    object-fit:contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.partie5droiteimg i
+{
+    cursor: pointer;
+}
+.partie5droiteimg i:hover
+{
+    color: #8b8b8b;
+    transition: 0.5s;
+}
+.RF:hover
+{
+    background-color: #328BCB;
+    color: #8b8b8b;
+    transition: 0.5s;
+}
+.p5rond
+{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin: 3rem 0 0 13rem;
+}
+.rond1
+{
+    width: 10px;
+    height: 10px;
+    background-color:#034D82 ;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.rond2
+{
+    width: 10px;
+    height: 10px;
+    background-color:#E2ECF4;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.rond2:hover
+{
+    background-color:#034D82;
+    transition: 0.5s;
+}
+.partie6
+{
+    background: linear-gradient(to right,#01B8D9,#24CEED);
+    display: flex;
+    justify-content: space-around;
+    margin: 8rem 0 0 0;
+}
+.partie6gauche h1
+{
+    color: white;
+    font-size: 36px;
+    line-height: 44px;
+}
+.partie6gauche p
+{
+    color: white;
+    font-size: 14px;
+    line-height: 32px;
+}
+.sousp6
+{
+    display: flex;
+    gap: 2rem;
+}
+.sousp6img
+{
+    display: flex;
+}
+.sousp6img img
+{
+    margin: 0 -1rem 0 0;
+}
+.sousp6 span
+{
+    color: white;
+    font-size: 14px;
+    line-height: 32px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+    cursor: pointer;
+}
+.partie6
+{
+    border-radius: 8px;
+    margin: 3rem 20rem 5rem 20rem;
+    padding: 2rem 2rem;
+}
+.partie6droite
+{
+    display: flex;
+    align-items: center;
+}
+.p6button
+{
+    color: #00B8D9;
+    background-color: white;
+    border: 0;
+    width: 204px;
+    height: 91px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.p6button:hover
+{
+    color: #328BCB;
+    background-color: #bbbbbb;
+    transition: 0.5s;
+}
+.pied
+{
+    background-color: #081315;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 0 0 5rem 0;
+}
+.footer
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.f1
+{
+    padding: 3rem 0;
+}
+.f1icone
+{
+    display: flex;
+}
+.f1 p
+{
+    color:#D3D6D8 ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.f1 img
+{
+    cursor: pointer;
+}
+.rondimg
+{
+    background-color:rgb(28, 40, 42);
+    width: 42px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit:contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.rondimg:hover
+{   
+    background-color: #8b8a8a;
+    transition: 0.5s;
+}
+.f2 
+{
+    display: flex;
+    flex-direction: column;
+} 
+.f2 h1
+{
+    color: white;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;    
+}
+.f2 p
+{
+    color: #D3D6D8;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;  
+    cursor: pointer;  
+}
+.f2 p:hover
+{
+    color: #8b8a8a;
+    transition: 0.5s;
+}
+.finpied
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rondf 
+{
+   display: flex;
+   object-fit:contain;
+   align-items: center;
+   justify-content: center;
+   width: 56px;
+   height: 56px;
+   border-radius: 50%;
+   background-color: #005490;
+   cursor: pointer;
+}
+.rondf:hover
+{
+    background-color: #328BCB;
+    transition: 0.5s;
+} 
+.finpied h2
+{
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;    
+}
