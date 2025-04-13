@@ -670,11 +670,6 @@ body
         gap: 15px;
     }
     
-    .seehow
-    {
-        width: 100%;
-    }
-    
     .tete2gauche
     {
         margin: 2rem 0 0 0;
@@ -683,14 +678,14 @@ body
     
     .ecrase
     {
-        margin: -25rem 0 0 0;
+        margin: -30rem 0 0 0;
         max-width: 100%;
     }
     
     .partie1
     {
-        margin: -10rem 0 -5rem 0;
-        padding: 0 0 10rem 0;
+        margin: -15rem 0 -10rem 0;
+        padding: 0 0 15rem 0;
     }
     
     .partners
@@ -698,31 +693,33 @@ body
         flex-wrap: wrap;
         justify-content: center;
         gap: 20px;
-        margin: 12rem 0 0 0;
     }
     
     .partners img
     {
-        max-width: 100px;
+        max-width: 120px;
     }
     
     .partie2
     {
         flex-direction: column;
         padding: 0 15px;
-        margin: 6rem 0 0 0;
+    }
+    
+    .partie3
+    {
+        flex-direction: column;
+        padding: 0 15px;
     }
     
     .partie2gauche
     {
         width: 100%;
-        justify-content: center;
     }
     
     .partie2droite
     {
         width: 100%;
-        margin-top: 2rem;
     }
     
     .ecrase2
@@ -739,14 +736,7 @@ body
     
     .partie3
     {
-        flex-direction: column;
-        padding: 0 15px;
-        margin: 10rem 0 0 0;
-    }
-    
-    .partie3gauche
-    {
-        width: 100%;
+        margin: 15rem 0 0 0;
     }
     
     .partie3gauche h1
@@ -758,20 +748,18 @@ body
     .partie3 img
     {
         max-width: 100%;
-        margin-top: 2rem;
+        margin-top: 30px;
     }
     
     .partie4
     {
         padding: 3rem 15px;
-        margin-top: 4rem;
     }
     
     .partie4tete h1
     {
         font-size: 24px;
         line-height: 32px;
-        text-align: center;
     }
     
     .partie4body
@@ -788,25 +776,14 @@ body
     .partie5
     {
         flex-direction: column;
-        margin: 5rem 15px 0 15px;
-    }
-    
-    .partie5gauche
-    {
-        margin-bottom: 2rem;
+        margin: 8rem 15px 0 15px;
+        gap: 30px;
     }
     
     .partie5gauche h1
     {
         font-size: 24px;
         line-height: 32px;
-    }
-    
-    .partie5droite h1
-    {
-        font-size: 80px;
-        margin: 0;
-        text-align: center;
     }
     
     .partie5droiteimg
@@ -818,25 +795,14 @@ body
     .partie5droiteimg img
     {
         max-width: 100%;
-        height: auto;
-    }
-    
-    .p5rond
-    {
-        margin: 2rem auto;
-        justify-content: center;
     }
     
     .partie6
     {
         flex-direction: column;
-        margin: 3rem 15px;
+        margin: 3rem 15px 5rem 15px;
         padding: 2rem 15px;
-    }
-    
-    .partie6gauche
-    {
-        margin-bottom: 2rem;
+        gap: 30px;
     }
     
     .partie6gauche h1
@@ -845,37 +811,11 @@ body
         line-height: 32px;
     }
     
-    .sousp6
-    {
-        flex-direction: column;
-    }
-    
-    .p6button
-    {
-        width: 100%;
-        height: 60px;
-    }
-    
     .footer
     {
         flex-direction: column;
         padding: 0 15px;
         gap: 30px;
-    }
-    
-    .f1
-    {
-        padding: 2rem 0;
-    }
-    
-    .f2
-    {
-        margin-bottom: 1.5rem;
-    }
-    
-    .f2p
-    {
-        margin-top: 1rem;
     }
 }
 
@@ -904,39 +844,31 @@ body
     
     .tete2droite
     {
-        margin: 8rem 0 0 0;
-        padding-right: 20px;
+        margin: 10rem 0 0 0;
     }
     
     .tete2droite h1
     {
         font-size: 48px;
         line-height: 58px;
-        width: 90%;
+        width: 80%;
         height: auto;
-    }
-    
-    .tete2droite p
-    {
-        width: 90%;
     }
     
     .tete2gauche
     {
         margin: 5rem 0 0 0;
-        align-items: flex-end;
     }
     
     .ecrase
     {
-        margin: -30rem 0 0 0;
-        max-width: 100%;
+        margin: -35rem 0 0 0;
     }
     
     .partie1
     {
-        margin: -15rem 0 -10rem 0;
-        padding: 0 0 15rem 0;
+        margin: -20rem 0 -12rem 0;
+        padding: 0 0 20rem 0;
     }
     
     .partners
@@ -944,35 +876,16 @@ body
         flex-wrap: wrap;
         justify-content: center;
         gap: 30px;
-        margin: 12rem 0 0 0;
-    }
-    
-    .partners img
-    {
-        max-width: 130px;
     }
     
     .partie2
     {
         padding: 0 40px;
-        margin: 5rem 0 0 0;
     }
     
-    .partie2gauche
+    .partie3
     {
-        width: 45%;
-    }
-    
-    .partie2droite
-    {
-        width: 50%;
-        padding-right: 20px;
-    }
-    
-    .ecrase2
-    {
-        margin: 0 0 0 -25rem;
-        max-width: 100%;
+        padding: 0 40px;
     }
     
     .partie2droite h1
@@ -983,25 +896,13 @@ body
     
     .partie3
     {
-        padding: 0 40px;
-        margin: 15rem 0 0 0;
-        justify-content: space-between;
-    }
-    
-    .partie3gauche
-    {
-        width: 45%;
+        margin: 20rem 0 0 0;
     }
     
     .partie3gauche h1
     {
         font-size: 32px;
         line-height: 42px;
-    }
-    
-    .partie3 img
-    {
-        max-width: 50%;
     }
     
     .partie4
@@ -1019,23 +920,16 @@ body
     {
         flex-wrap: wrap;
         gap: 20px;
-        justify-content: center;
     }
     
     .partie4case
     {
         width: 45%;
-        margin-bottom: 20px;
     }
     
     .partie5
     {
-        margin: 8rem 40px 0 40px;
-    }
-    
-    .partie5gauche
-    {
-        width: 45%;
+        margin: 10rem 40px 0 40px;
     }
     
     .partie5gauche h1
@@ -1044,27 +938,9 @@ body
         line-height: 42px;
     }
     
-    .partie5droite
-    {
-        width: 50%;
-    }
-    
-    .p5rond
-    {
-        margin: 3rem auto;
-        justify-content: center;
-    }
-    
     .partie6
     {
-        margin: 5rem 40px;
-        padding: 3rem 40px;
-        align-items: center;
-    }
-    
-    .partie6gauche
-    {
-        width: 60%;
+        margin: 3rem 40px 5rem 40px;
     }
     
     .partie6gauche h1
@@ -1073,78 +949,32 @@ body
         line-height: 42px;
     }
     
-    .partie6droite
-    {
-        width: 40%;
-        justify-content: flex-end;
-    }
-    
-    .sousp6
-    {
-        flex-wrap: wrap;
-    }
-    
     .footer
     {
-        padding: 3rem 40px 0;
+        padding: 0 40px;
         flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    
-    .f1
-    {
-        width: 100%;
-        margin-bottom: 2rem;
     }
     
     .f2
     {
-        width: 45%;
-        margin-bottom: 2rem;
+        width: 40%;
+        margin-bottom: 30px;
     }
 }
 
 /* Format PC */
 @media screen and (min-width: 1001px) 
 {
-    .partie2
-    {
-        max-width: 1400px;
-        margin: 0 auto;
-    }
-    
-    .partie3
-    {
-        max-width: 1400px;
-        margin: 25rem auto 0;
-    }
-    
-    .partie4
-    {
-        max-width: 100%;
-    }
-    
     .partie4body
     {
         max-width: 1400px;
         margin: 0 auto;
     }
     
-    .partie5
-    {
-        max-width: 1400px;
-        margin: 15rem auto 0;
-    }
-    
     .partie6
     {
         max-width: 1200px;
-        margin: 8rem auto 5rem;
-    }
-    
-    .footer
-    {
-        max-width: 1400px;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
