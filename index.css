@@ -8,7 +8,7 @@ body
 }
 .tete
 {
-    background-color:#1BB9E9;
+    background:linear-gradient(to right,#328BCB,#00B8D9);
     padding: 39px 0 0 140px;
 }
 .tete1
@@ -600,4 +600,381 @@ body
     line-height: 100%;
     letter-spacing: 0px;
     text-align: center;    
+}
+
+
+
+/* Format iPhone */
+@media screen and (max-width: 500px) 
+{
+    .tete
+    {
+        padding: 20px 15px;
+    }
+    
+    .tete1
+    {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+    
+    .tete1droite
+    {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+    
+    .tete1droitenav
+    {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+    
+    .Login
+    {
+        width: 100%;
+    }
+    
+    .tete2
+    {
+        flex-direction: column;
+    }
+    
+    .tete2droite
+    {
+        margin: 3rem 0 0 0;
+        text-align: center;
+    }
+    
+    .tete2droite h1
+    {
+        font-size: 32px;
+        line-height: 40px;
+        width: 100%;
+        height: auto;
+    }
+    
+    .tete2droite p
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    .tete2droitebas
+    {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .tete2gauche
+    {
+        margin: 2rem 0 0 0;
+        align-items: center;
+    }
+    
+    .ecrase
+    {
+        margin: -30rem 0 0 0;
+        max-width: 100%;
+    }
+    
+    .partie1
+    {
+        margin: -15rem 0 -10rem 0;
+        padding: 0 0 15rem 0;
+    }
+    
+    .partners
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .partners img
+    {
+        max-width: 120px;
+    }
+    
+    .partie2
+    {
+        flex-direction: column;
+        padding: 0 15px;
+    }
+    
+    .partie3
+    {
+        flex-direction: column;
+        padding: 0 15px;
+    }
+    
+    .partie2gauche
+    {
+        width: 100%;
+    }
+    
+    .partie2droite
+    {
+        width: 100%;
+    }
+    
+    .ecrase2
+    {
+        margin: 0;
+        max-width: 100%;
+    }
+    
+    .partie2droite h1
+    {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .partie3
+    {
+        margin: 15rem 0 0 0;
+    }
+    
+    .partie3gauche h1
+    {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .partie3 img
+    {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+    
+    .partie4
+    {
+        padding: 3rem 15px;
+    }
+    
+    .partie4tete h1
+    {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .partie4body
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .partie4case
+    {
+        width: auto;
+    }
+    
+    .partie5
+    {
+        flex-direction: column;
+        margin: 8rem 15px 0 15px;
+        gap: 30px;
+    }
+    
+    .partie5gauche h1
+    {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .partie5droiteimg
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .partie5droiteimg img
+    {
+        max-width: 100%;
+    }
+    
+    .partie6
+    {
+        flex-direction: column;
+        margin: 3rem 15px 5rem 15px;
+        padding: 2rem 15px;
+        gap: 30px;
+    }
+    
+    .partie6gauche h1
+    {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .footer
+    {
+        flex-direction: column;
+        padding: 0 15px;
+        gap: 30px;
+    }
+}
+
+/* Format iPad */
+@media screen and (min-width: 501px) and (max-width: 1000px) 
+{
+    .tete
+    {
+        padding: 30px 40px;
+    }
+    
+    .tete1
+    {
+        width: 100%;
+    }
+    
+    .tete1droite
+    {
+        gap: 30px;
+    }
+    
+    .tete1droitenav
+    {
+        gap: 25px;
+    }
+    
+    .tete2droite
+    {
+        margin: 10rem 0 0 0;
+    }
+    
+    .tete2droite h1
+    {
+        font-size: 48px;
+        line-height: 58px;
+        width: 80%;
+        height: auto;
+    }
+    
+    .tete2gauche
+    {
+        margin: 5rem 0 0 0;
+    }
+    
+    .ecrase
+    {
+        margin: -35rem 0 0 0;
+    }
+    
+    .partie1
+    {
+        margin: -20rem 0 -12rem 0;
+        padding: 0 0 20rem 0;
+    }
+    
+    .partners
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .partie2
+    {
+        padding: 0 40px;
+    }
+    
+    .partie3
+    {
+        padding: 0 40px;
+    }
+    
+    .partie2droite h1
+    {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    
+    .partie3
+    {
+        margin: 20rem 0 0 0;
+    }
+    
+    .partie3gauche h1
+    {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    
+    .partie4
+    {
+        padding: 4rem 40px 6rem;
+    }
+    
+    .partie4tete h1
+    {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    
+    .partie4body
+    {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .partie4case
+    {
+        width: 45%;
+    }
+    
+    .partie5
+    {
+        margin: 10rem 40px 0 40px;
+    }
+    
+    .partie5gauche h1
+    {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    
+    .partie6
+    {
+        margin: 3rem 40px 5rem 40px;
+    }
+    
+    .partie6gauche h1
+    {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    
+    .footer
+    {
+        padding: 0 40px;
+        flex-wrap: wrap;
+    }
+    
+    .f2
+    {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+}
+
+/* Format PC */
+@media screen and (min-width: 1001px) 
+{
+    .partie4body
+    {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    
+    .partie6
+    {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
