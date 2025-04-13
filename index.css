@@ -678,7 +678,7 @@ body
     
     .ecrase
     {
-        margin: -30rem 0 0 0;
+        margin: -25rem 0 0 0;
         max-width: 100%;
     }
     
@@ -715,6 +715,9 @@ body
     .partie2gauche
     {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     .partie2droite
@@ -722,10 +725,18 @@ body
         width: 100%;
     }
     
+    .ecrase1
+    {
+        max-width: 80%;
+        margin-bottom: -50px; 
+    }
+
     .ecrase2
     {
-        margin: 0;
-        max-width: 100%;
+        margin-top: -380px; 
+        margin-left: 10px;
+        max-width: 90%;
+        z-index: 1; 
     }
     
     .partie2droite h1
@@ -862,7 +873,7 @@ body
     
     .ecrase
     {
-        margin: -35rem 0 0 0;
+        margin: -15rem 0 0 0;
     }
     
     .partie1
@@ -883,6 +894,28 @@ body
         padding: 0 40px;
     }
     
+    .partie2gauche
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ecrase1
+    {   
+        max-width: 80%;
+        margin-bottom: -240px; 
+        margin-left:-360px;
+    }
+
+    .ecrase2
+    {
+        margin-top: -220px; 
+        max-width: 90%;
+        z-index: 1;
+    }
+
     .partie3
     {
         padding: 0 40px;
